@@ -12,6 +12,10 @@
   </head>
 
   <body>
+    <header>
+      <%= link_to 'Requests', requests_path %>
+      <%= link_to 'Users', users_path %>
+    </header>
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
     <% end %>
